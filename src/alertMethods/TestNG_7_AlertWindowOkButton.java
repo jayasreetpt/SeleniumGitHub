@@ -14,7 +14,7 @@ public class TestNG_7_AlertWindowOkButton {
 	  Thread.sleep(5000);
 	  driver.findElement(By.xpath("//*[@id=\"node-100\"]/div/div[1]/div/div/button")).click();
 	  Thread.sleep(3000);
-	  driver.switchTo().alert().accept();
+	  driver.switchTo().alert().dismiss();
   }
   @BeforeTest
   public void beforeTest() {
