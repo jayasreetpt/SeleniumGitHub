@@ -30,7 +30,7 @@ public class TsestNG_15_UrlTitleText {
 	  String expUrl = "https://www.google.com/";
 	  System.out.println("exptitle:"+expUrl);
 	  
-	  String actUrl =driver.getTitle();
+	  String actUrl =driver.getCurrentUrl();
 	  System.out.println("acttitle:"+actUrl);
 	  
 	  Assert.assertEquals(actUrl, expUrl);

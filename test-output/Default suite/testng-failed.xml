@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sikuli.SikuliDemo">
+      <class name="isDisplayedEnabledSelected.IsEnabled">
         <methods>
-          <include name="Sikuli"/>
+          <include name="f"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- sikuli.SikuliDemo -->
+      </class> <!-- isDisplayedEnabledSelected.IsEnabled -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

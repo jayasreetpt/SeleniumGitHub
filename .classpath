@@ -93,5 +93,7 @@
 	<classpathentry kind="lib" path="D:/lib/file-utils.jar"/>
 	<classpathentry kind="lib" path="D:/lib/org.apache.commons.io.jar"/>
 	<classpathentry kind="lib" path="D:/lib/sikulixapi-2.0.5-win.jar"/>
+	<classpathentry kind="lib" path="D:/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="D:/lib/sqljdbc4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
